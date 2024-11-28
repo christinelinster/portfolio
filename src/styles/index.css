@@ -1,0 +1,61 @@
+:root {
+  font-family: Geologica, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.35px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #C5D3E8;
+  background-color: rgba(15, 18, 20, 0.7);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-family: Geologica;
+  font-weight: 600;
+  color: #EDE7F6;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #605EA1;
+}
+
+body {
+  display: flex;
+  padding: 5rem 10vw;
+  min-height: 80vh;
+  justify-content: start;
+  align-items: center;
+}
+
+h1 {
+  font-family: Poppins;
+  font-size: 3rem;
+  margin: 0;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+  
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
