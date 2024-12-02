@@ -1,0 +1,7 @@
+
+#contact{
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    column-gap: 10rem;
+}

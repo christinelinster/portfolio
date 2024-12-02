@@ -1,7 +1,11 @@
-
+import "../styles/Projects.css"
 function Projects(){
     return(
-        <h1>This is the projects page.</h1>
+        <div id="projects">
+            <h2>Projects</h2>
+            <div className="hr"/>
+        </div>
+      
     )
 }
 

@@ -1,6 +1,18 @@
+import Calendly from "../components/Calendly";
+import "../styles/Contact.css"
+
 function Contact() {
   return(
-    <h1>This is the contact me page.</h1>
+   <div id="contact">
+    <div>
+      <h2>Get In Touch</h2> 
+      <p>Some messaging on contacting me.</p>
+    </div>
+      
+      <div>
+        <Calendly/>
+      </div>
+   </div>
   )
 }
 
